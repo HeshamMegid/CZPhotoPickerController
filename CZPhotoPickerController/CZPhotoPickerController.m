@@ -120,13 +120,13 @@ typedef enum {
 {
   switch (buttonIndex) {
     case PhotoPickerButtonUseLastPhoto:
-      return NSLocalizedString(@"Use Last Photo Taken", nil);
+      return NSLocalizedString(@"إستخدم أخر صورة", nil);
 
     case PhotoPickerButtonTakePhoto:
-      return NSLocalizedString(@"Take Photo", nil);
+      return NSLocalizedString(@"إلتقط صورة", nil);
 
     case PhotoPickerButtonChooseFromLibrary:
-      return NSLocalizedString(@"Choose from Library", nil);
+      return NSLocalizedString(@"إختر من مكتبة الصور", nil);
 
     default:
       return nil;
